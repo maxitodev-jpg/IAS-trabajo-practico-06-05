@@ -8,11 +8,7 @@ Trabajo Práctico - Introduccion al Análisis Sistémico
 - Barrionuevo	Santiago
 - Cumar Vinci Merlín Ian
 
-Dame un sistema para gestionar ventas y compras, stock y reporte de un negocio que comercializa lámparas. Las US debes crearlas con las palabras COMO QUIERO PARA. Creá los criterios de aceptación, usando las palabras DADO CUANDO ENTONCES
-
-Para desarrollar un sistema de gestión de inventario y ventas (ERP/POS) específico para un negocio de lámparas, es fundamental considerar la fragilidad de los productos y la variedad de atributos (zócalos, potencia, material).
-
-Aquí tenés el backlog inicial con las User Stories (US) y sus respectivos Criterios de Aceptación (AC) bajo los formatos solicitados.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <b>1. Gestión de Stock (Inventario)</b>
 
@@ -30,6 +26,8 @@ COMO dueño de negocio QUIERO recibir una notificación cuando una lámpara teng
 
         DADO que una lámpara tiene un umbral de stock mínimo de 5 unidades, CUANDO se realiza una venta que deja el inventario en 4, ENTONCES el sistema debe mostrar una alerta visual en el tablero principal.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <b>2. Gestión de Ventas</b>
 
 US03: Registro de Venta Directa
@@ -46,6 +44,8 @@ COMO vendedor QUIERO aplicar un descuento a partir de 10 unidades (mayorista) PA
 
         DADO que hay más de 10 lámparas del mismo modelo en el carrito, CUANDO se calcula el total, ENTONCES el sistema debe aplicar un 15% de descuento automáticamente sobre el subtotal de ese ítem.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <b>3. Gestión de Compras y Proveedores</b>
 
 US05: Registro de Orden de Compra
@@ -54,6 +54,8 @@ COMO encargado de compras QUIERO registrar la llegada de un pedido del proveedor
     Criterio de Aceptación:
 
         DADO que se recibe un lote de 50 lámparas colgantes, CUANDO el usuario carga la factura del proveedor en el sistema, ENTONCES el stock actual se incrementa y el precio de costo se actualiza si hubo cambios.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <b>4. Reportes y Análisis</b>
 
