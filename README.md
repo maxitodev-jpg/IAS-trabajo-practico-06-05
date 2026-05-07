@@ -13,6 +13,7 @@ Dame un sistema para gestionar ventas y compras, stock y reporte de un negocio q
 Para desarrollar un sistema de gestión de inventario y ventas (ERP/POS) específico para un negocio de lámparas, es fundamental considerar la fragilidad de los productos y la variedad de atributos (zócalos, potencia, material).
 
 Aquí tenés el backlog inicial con las User Stories (US) y sus respectivos Criterios de Aceptación (AC) bajo los formatos solicitados.
+
 <b>1. Gestión de Stock (Inventario)</b>
 
 US01: Registro de Productos
