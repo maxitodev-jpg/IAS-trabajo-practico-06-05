@@ -5,7 +5,7 @@ Trabajo Práctico - Introduccion al Análisis Sistémico
 - Pepi Jose
 - Carvajal	Martín
 - Torres	Maxi
-- Barrionuevo	Santiago
+- Barrionuevo Navarro Santiago
 - Cumar Vinci Merlín Ian
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
