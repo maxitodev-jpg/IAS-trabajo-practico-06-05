@@ -3,4 +3,3 @@ function calcularImpuestos(subtotal, porcentajeImpuesto) {
 }
 
 console.log("Impuestos:", calcularImpuestos(22000, 21));
-
