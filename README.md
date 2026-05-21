@@ -1,5 +1,8 @@
-IAS-trabajo-practico-06-05
-Trabajo Práctico - Introduccion al Análisis Sistémico
+<h1>IAS-trabajo-practico-06-05</h1>
+
+<h2>Trabajo Práctico - Introduccion al Análisis Sistémico</h2>
+
+--------------------------------------------------------------
 
 Integrantes del Grupo
 
