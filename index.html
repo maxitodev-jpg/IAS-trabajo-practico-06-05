@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Focos - FoquiCor</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #4A90E2; text-align: center; }
+        .container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 300px; }
+        h2 { margin-top: 0; font-size: 1.2rem; color: #555; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+        label { display: block; margin: 10px 0 5px; font-weight: bold; font-size: 0.9rem; }
+        input, select { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+        button { width: 100%; padding: 10px; background-color: #4A90E2; color: white; border: none; border-radius: 4px; font-weight: bold; margin-top: 15px; cursor: pointer; }
+        button:hover { background-color: #357ABD; }
+        .console-box { background: #222; color: #00ff00; padding: 15px; border-radius: 5px; font-family: monospace; width: 100%; max-width: 640px; margin: 20px auto; height: 150px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+
+    <h1>💡 Sistema Tienda de Focos - FoquiCor</h1>
+
+    <div class="container">
+        <div class="card">
+            <h2>📦 Registrar Producto</h2>
+            <form id="form-producto">
+                <label>ID Producto:</label>
+                <input type="text" id="prod-id" placeholder="PROD-001" required>
+                
+                <label>Nombre del Producto:</label>
+                <input type="text" id="prod-nombre" placeholder="Foco LED 9W" required>
+                
+                <label>Precio Unitario ($):</label>
+                <input type="number" id="prod-precio" placeholder="500" required>
+                
+                <label>Stock Inicial:</label>
+                <input type="number" id="prod-stock" placeholder="10" required>
+                
+                <button type="submit">Guardar Producto</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>💰 Realizar Venta</h2>
+            <form id="form-venta">
+                <label>Seleccionar Producto:</label>
+                <select id="venta-producto-id" required>
+                    <option value="">-- Elige un producto --</option>
+                </select>
+                
+                <label>Cantidad a comprar:</label>
+                <input type="number" id="venta-cantidad" placeholder="2" min="1" required>
+                
+                <button type="submit">Procesar Venta</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>📊 Resumen de Caja</h2>
+            <p><strong>Subtotal:</strong> $<span id="res-subtotal">0.00</span></p>
+            <p><strong>Impuesto (21%):</strong> $<span id="res-impuesto">0.00</span></p>
+            <p><strong>Total Facturado:</strong> $<span id="res-total">0.00</span></p>
+            <button id="btn-reporte" style="background-color: #28a745;">Generar Reporte en Consola</button>
+        </div>
+    </div>
+
+    <h3 style="text-align: center; margin-top: 30px;">🖥️ Salida del Sistema (Logs)</h3>
+    <div class="console-box" id="web-console">
+        >> Sistema listo. Registra un producto para empezar...
+    </div>
+
+    <script src="frontend.js"></script>
+</body>
+</html>

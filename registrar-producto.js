@@ -49,3 +49,5 @@ function registrarProducto(id, nombre, precio, stock) {
     console.log(`[INVENTARIO]: Éxito. Producto '${nombre}' registrado correctamente.`);
     return nuevoProducto;
 }
+
+module.exports = registrarProducto;

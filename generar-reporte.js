@@ -51,3 +51,5 @@ function generarReporte(ventas) {
         productoMasVendido: productoEstrella ? `${productoEstrella} (${maxCantidad} unidades)` : "N/A"
     };
 }
+
+module.exports = generarReporte;

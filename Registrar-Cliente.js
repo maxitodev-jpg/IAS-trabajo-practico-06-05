@@ -64,7 +64,9 @@ function mostrarMensaje(elemento, texto, tipo) {
 }
 
 // Vincular el evento al formulario
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('formRegistro');
   if (form) form.addEventListener('submit', registrarCliente);
-});
+});*/
+
+module.exports = registrarCliente;

@@ -8,3 +8,5 @@ function calcularSubtotal(productos) {
 
     return subtotal;
 }
+
+module.exports = calcularSubtotal;

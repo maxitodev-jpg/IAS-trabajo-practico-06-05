@@ -72,3 +72,5 @@ try {
 } catch (error) {
     console.error(`❌ Ha ocurrido un error controlado: ${error.message}`);
 }
+
+module.exports = realizarVenta;

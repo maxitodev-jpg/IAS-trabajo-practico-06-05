@@ -91,3 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (form) form.addEventListener('submit', registrarProveedor);
   listarProveedores();
 });
+
+
+module.exports = registrarProveedor;
