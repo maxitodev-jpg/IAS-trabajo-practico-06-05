@@ -6,11 +6,11 @@
 
 Integrantes del Grupo
 
-Pepi Jose
-Carvajal Martín
-Torres Maxi
-Barrionuevo Navarro Santiago
-Cumar Vinci Merlín Ian
+Pepi Jose,
+Carvajal Martín,
+Torres Maximiliano,
+Barrionuevo Navarro Santiago,
+Cumar Vinci Merlín Ian.
 1. Gestión de Stock (Inventario)
 
 US01: Registro de Productos COMO encargado de compras QUIERO dar de alta nuevas lámparas en el sistema PARA mantener el catálogo actualizado.
